@@ -14,7 +14,7 @@
 <div class="container row justify-content-center">
 
     <!-- Box Form -->
-    <div class="row col-12 col-lg-4 shadow-lg rounded-4 p-4 mb-5">
+    <div class="row col-12 col-lg-8 shadow-lg rounded-4 p-4 mb-5">
 
         <!-- Header -->
         <div class="col-12 py-4 text-center">
@@ -24,25 +24,49 @@
         <!-- End header -->
 
         <!-- Form -->
-        <form>
-            <label for="firstname" class="form-label">First Name</label>
-            <input id="firstname" class="form-control" type="text" placeholder="Enter your first name">
-            <label for="lastname" class="form-label">Last Name</label>
-            <input id="lastname" class="form-control" type="text" placeholder="Enter your last name">
-            <label for="gender" class="form-label">Gender</label>
-            <select class="form-select" id="gender">
-                <option value="" disabled selected>~Select gender~</option>
-                <option value="female">Female</option>
-                <option value="male">Male</option>
-            </select>
-            <label for="email" class="form-label">Email</label>
-            <input id="email" class="form-control" type="email" placeholder="Enter your email">
-            <label for="password" class="form-label">Password</label>
-            <input id="password" class="form-control" type="password" placeholder="Enter your password">
-            <label for="confirm_password" class="form-label">Password</label>
-            <input id="confirm_password" class="form-control" type="password" placeholder="Re-enter your password">
-            <input type="submit" value="Register" class="btn btn-primary w-100">
-            <p>Already have an account? <a href="login.html">Login</a></p>
+        <form class="row">
+
+            <div class="col-6">
+                <label for="firstname" class="form-label">First Name</label>
+                <input id="firstname" class="form-control" type="text" placeholder="Enter your first name">
+            </div>
+
+            <div class="col-6">
+                <label for="lastname" class="form-label">Last Name</label>
+                <input id="lastname" class="form-control" type="text" placeholder="Enter your last name">
+            </div>
+
+            <div class="col-6">
+                <label for="gender" class="form-label">Gender</label>
+                <select class="form-select" id="gender">
+                    <option value="" disabled selected>~Select gender~</option>
+                    <option value="female">Female</option>
+                    <option value="male">Male</option>
+                </select>
+            </div>
+
+            <div class="col-6">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" class="form-control" type="email" placeholder="Enter your email">
+            </div>
+
+            <div class="col-6">
+                <label for="password" class="form-label">Password</label>
+                <input id="password" class="form-control" type="password" placeholder="Enter your password">
+            </div>
+
+            <div class="col-6">
+                <label for="confirm_password" class="form-label">Password</label>
+                <input id="confirm_password" class="form-control" type="password" placeholder="Re-enter your password">
+            </div>
+
+            <div class="col-12">
+                <input type="submit" value="Register" class="btn btn-primary w-100">
+            </div>
+
+            <div class="col-12">
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </div>
         </form>
         <!-- End Form -->
 
