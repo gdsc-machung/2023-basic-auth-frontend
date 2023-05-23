@@ -25,23 +25,24 @@
 
         <!-- Form -->
         <form>
-            <label for="firstname">First Name</label>
-            <input id="firstname" type="text">
-            <label for="lastname">Last Name</label>
-            <input id="lastname" type="text">
-            <label for="gender">Gender</label>
-            <select id="gender">
+            <label for="firstname" class="form-label">First Name</label>
+            <input id="firstname" class="form-control" type="text" placeholder="Enter your first name">
+            <label for="lastname" class="form-label">Last Name</label>
+            <input id="lastname" class="form-control" type="text" placeholder="Enter your last name">
+            <label for="gender" class="form-label">Gender</label>
+            <select class="form-select" id="gender">
+                <option value="" disabled selected>~Select gender~</option>
                 <option value="female">Female</option>
                 <option value="male">Male</option>
             </select>
-            <label for="email">Email</label>
-            <input id="email" type="email">
-            <label for="password">Password</label>
-            <input id="password" type="password">
-            <label for="confirm_password">Password</label>
-            <input id="confirm_password" type="password">
-            <input type="submit" value="Register">
-            <p>Already have an account? <a href="index.html">Login</a></p>
+            <label for="email" class="form-label">Email</label>
+            <input id="email" class="form-control" type="email" placeholder="Enter your email">
+            <label for="password" class="form-label">Password</label>
+            <input id="password" class="form-control" type="password" placeholder="Enter your password">
+            <label for="confirm_password" class="form-label">Password</label>
+            <input id="confirm_password" class="form-control" type="password" placeholder="Re-enter your password">
+            <input type="submit" value="Register" class="btn btn-primary w-100">
+            <p>Already have an account? <a href="login.html">Login</a></p>
         </form>
         <!-- End Form -->
 
